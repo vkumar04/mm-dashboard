@@ -1,0 +1,521 @@
+{
+  "goalsMet": {
+  "REC_ID": 3,
+  "REC_TS": {
+    "date": "2017-11-15 13:03:00.170000",
+    "timezone_type": 3,
+    "timezone": "Europe/Berlin"
+  },
+  "Ops_Center_Code": "CLT",
+  "Op_Center": "Indian Land, SC",
+  "uw_lvl1_3": "1 to 3",
+  "UW_Lvl1_3_MTD_turntime": "5.8",
+  "uw_lvl4": "Specialty",
+  "UW_Lvl4_MTD_turntime": "9.5",
+  "TPD_Pct": "79.6",
+  "InClosing_Daily_Loan_Count": "0",
+  "FundedUnitsMTD": "530",
+  "FundedVolMTD": "$102,640,279",
+  "Projected_Units": "1,390",
+  "Projected_Volume": "$274,245,467",
+  "Submissions_NumOfLoans_MTD": "987",
+  "Submissions_NumOfLoans_LastMTD": "1,099",
+  "ThisMonth": "November",
+  "LastMonth": "October",
+  "BusinessDayCount": "11"
+},
+  "newHires": [
+  {
+    "EENAME": "ELIZABETH GREENE",
+    "Position": "Associate General Counsel",
+    "Lastname": "GREENE",
+    "Employee_Code": "10008975",
+    "HireDate": "2017-11-01T00:00:00"
+  },
+  {
+    "EENAME": "DANIELLE MATHER",
+    "Position": "Business Intel Sr Analyst",
+    "Lastname": "MATHER",
+    "Employee_Code": "10100112",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "HENRY SANTOS",
+    "Position": "Chief Information Officer",
+    "Lastname": "SANTOS",
+    "Employee_Code": "10100016",
+    "HireDate": "2017-10-02T00:00:00"
+  },
+  {
+    "EENAME": "KRISTA CLINARD",
+    "Position": "Collateral Analyst",
+    "Lastname": "CLINARD",
+    "Employee_Code": "10100213",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "JENNA DRURY",
+    "Position": "Communications Manager",
+    "Lastname": "DRURY",
+    "Employee_Code": "10009136",
+    "HireDate": "2017-10-02T00:00:00"
+  },
+  {
+    "EENAME": "CARL CORBIN",
+    "Position": "Compliance Analyst",
+    "Lastname": "CORBIN",
+    "Employee_Code": "10100141",
+    "HireDate": "2017-10-30T00:00:00"
+  },
+  {
+    "EENAME": "KATHRYN FORAS",
+    "Position": "Customer Service Rep",
+    "Lastname": "FORAS",
+    "Employee_Code": "10100111",
+    "HireDate": "2017-11-01T00:00:00"
+  },
+  {
+    "EENAME": "DARLA SMYTH",
+    "Position": "Customer Service Rep",
+    "Lastname": "SMYTH",
+    "Employee_Code": "10100113",
+    "HireDate": "2017-11-01T00:00:00"
+  },
+  {
+    "EENAME": "DYLAN THOMAS",
+    "Position": "Farm Management Liaison",
+    "Lastname": "THOMAS",
+    "Employee_Code": "30000061",
+    "HireDate": "2017-11-01T00:00:00"
+  },
+  {
+    "EENAME": "STEPHEN PHILPOTT",
+    "Position": "Graphic Designer",
+    "Lastname": "PHILPOTT",
+    "Employee_Code": "10100127",
+    "HireDate": "2017-11-06T00:00:00"
+  },
+  {
+    "EENAME": "TRACY JAY",
+    "Position": "Processor I",
+    "Lastname": "JAY",
+    "Employee_Code": "10100167",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "KIMBERLY LINKER",
+    "Position": "Processor I",
+    "Lastname": "LINKER",
+    "Employee_Code": "10100147",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "JAMES MASTERS",
+    "Position": "Processor I",
+    "Lastname": "MASTERS",
+    "Employee_Code": "10100154",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "CRYSTAL WILLIAMS",
+    "Position": "Processor I",
+    "Lastname": "WILLIAMS",
+    "Employee_Code": "10100169",
+    "HireDate": "2017-11-13T00:00:00"
+  },
+  {
+    "EENAME": "ROXANNE HORNER",
+    "Position": "QC Underwriter",
+    "Lastname": "HORNER",
+    "Employee_Code": "10100097",
+    "HireDate": "2017-10-23T00:00:00"
+  },
+  {
+    "EENAME": "MICHAEL KEISER",
+    "Position": "Real Estate Analyst",
+    "Lastname": "KEISER",
+    "Employee_Code": "10100106",
+    "HireDate": "2017-10-23T00:00:00"
+  },
+  {
+    "EENAME": "SOPHIA BALLINGER",
+    "Position": "Recruiter",
+    "Lastname": "BALLINGER",
+    "Employee_Code": "10100002",
+    "HireDate": "2017-10-09T00:00:00"
+  },
+  {
+    "EENAME": "MARIE FLEMING",
+    "Position": "Recruiter",
+    "Lastname": "FLEMING",
+    "Employee_Code": "10100003",
+    "HireDate": "2017-10-09T00:00:00"
+  },
+  {
+    "EENAME": "SARAH PAGE",
+    "Position": "Recruiter",
+    "Lastname": "PAGE",
+    "Employee_Code": "10100083",
+    "HireDate": "2017-10-23T00:00:00"
+  },
+  {
+    "EENAME": "JESSYCA SHUTTLEWORTH",
+    "Position": "Recruiter",
+    "Lastname": "SHUTTLEWORTH",
+    "Employee_Code": "10100118",
+    "HireDate": "2017-11-09T00:00:00"
+  },
+  {
+    "EENAME": "BLAKE STICKLEY",
+    "Position": "Recruiter",
+    "Lastname": "STICKLEY",
+    "Employee_Code": "10100051",
+    "HireDate": "2017-10-09T00:00:00"
+  },
+  {
+    "EENAME": "TRICIA SWITZER",
+    "Position": "Sales Admin",
+    "Lastname": "SWITZER",
+    "Employee_Code": "10100201",
+    "HireDate": "2017-11-13T00:00:00"
+  }
+  ],
+  "ravingFans": [
+    {
+        "EENAME": "ABBY HEILMAN",
+        "Position": "Conversion"
+    },
+    {
+        "EENAME": "ADAM O'DANIEL",
+        "Position": "Communications Director"
+    },
+    {
+        "EENAME": "ADRIENNE RICHARDSON",
+        "Position": "Secondary Ops Generalist"
+    },
+    {
+        "EENAME": "AIMEE DODSON",
+        "Position": "Thrive Director"
+    },
+    {
+        "EENAME": "ALAINA WYNES",
+        "Position": "Funder"
+    },
+    {
+        "EENAME": "ALAN JACOBS",
+        "Position": "Underwriter II"
+    },
+    {
+        "EENAME": "ALANA SUTTON",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ALEX ROBERTSON",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ALEXANDER KORNIVSKIY",
+        "Position": "Accounting Clerk"
+    },
+    {
+        "EENAME": "ALICE HOWARD",
+        "Position": "Conversion"
+    },
+    {
+        "EENAME": "ALICIA SHANKLE",
+        "Position": "Assist Regulatory Counsel"
+    },
+    {
+        "EENAME": "ALISON DRENSEK",
+        "Position": "Finance Director"
+    },
+    {
+        "EENAME": "ALISON KILKER",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ALLISON MCCLAIN",
+        "Position": "QC Sr Analyst"
+    },
+    {
+        "EENAME": "ALLISON PLEIMAN",
+        "Position": "Pre-Closer"
+    },
+    {
+        "EENAME": "ALTOVISE HAM-YELVERTON",
+        "Position": "Underwriter III"
+    },
+    {
+        "EENAME": "ALYSE MAROTTA",
+        "Position": "Conversion"
+    },
+    {
+        "EENAME": "ALYSSA BOWMAN",
+        "Position": "Post Closing Analyst"
+    },
+    {
+        "EENAME": "ALYSSA GLOVER",
+        "Position": "Collateral Analyst"
+    },
+    {
+        "EENAME": "AMANDA BAILEY",
+        "Position": "Compliance Sr Analyst"
+    },
+    {
+        "EENAME": "AMANDA LEWIS",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "AMANDA LONG",
+        "Position": "Processor II"
+    },
+    {
+        "EENAME": "AMANDA ROCCIA",
+        "Position": "Jumbo Underwriter Manager"
+    },
+    {
+        "EENAME": "AMANDA SPEAR",
+        "Position": "Graphic Designer"
+    },
+    {
+        "EENAME": "AMY POPE",
+        "Position": "Processing Team Lead"
+    },
+    {
+        "EENAME": "AMY SHIREY",
+        "Position": "Funder"
+    },
+    {
+        "EENAME": "AMY THAPAR",
+        "Position": "Trailing Docs Admin"
+    },
+    {
+        "EENAME": "AMY WHETZEL",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ANDRES LOPEZ",
+        "Position": "MBS Delivery Analyst"
+    },
+    {
+        "EENAME": "ANDREW GLOVER",
+        "Position": "TRID Review Analyst"
+    },
+    {
+        "EENAME": "ANDREW JORDAN",
+        "Position": "Concierge"
+    },
+    {
+        "EENAME": "ANDY ROBINSON",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ANGEL MOSER",
+        "Position": "Closer I"
+    },
+    {
+        "EENAME": "ANGELA FITZPATRICK",
+        "Position": "Underwriting Team Lead"
+    },
+    {
+        "EENAME": "ANGELA MOORE",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ANGELA WILLARD",
+        "Position": "Underwriter III"
+    },
+    {
+        "EENAME": "ANGELIA SNOW",
+        "Position": "Campus Director"
+    },
+    {
+        "EENAME": "ANGELIQUE SPERANZA",
+        "Position": "Best Execution Analyst"
+    },
+    {
+        "EENAME": "ANN GLADZISZEWSKI",
+        "Position": "Processor II"
+    },
+    {
+        "EENAME": "ANNA FELD",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ANNA JOHNSON",
+        "Position": "Application Development"
+    },
+    {
+        "EENAME": "ANNE KROB",
+        "Position": "Transition Coach"
+    },
+    {
+        "EENAME": "ANNECIA WILLIAMS",
+        "Position": "Accounting Clerk"
+    },
+    {
+        "EENAME": "ANNELISE PENNINGTON",
+        "Position": "Conversion"
+    },
+    {
+        "EENAME": "ANNEMARIE SHIMIZU",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ANNETTE REESE-WALL",
+        "Position": "Compliance Analyst"
+    },
+    {
+        "EENAME": "ANTHONY COMENTO",
+        "Position": "Associate General Counsel"
+    },
+    {
+        "EENAME": "ANTHONY GULOTTA",
+        "Position": "Underwriting Manager"
+    },
+    {
+        "EENAME": "ANTHONY KETRON",
+        "Position": "Senior Regulatory Counsel"
+    },
+    {
+        "EENAME": "ANTHONY NEAL",
+        "Position": "Conversion"
+    },
+    {
+        "EENAME": "ANTIONETTE LAWRENCE",
+        "Position": "Pre-Closer"
+    },
+    {
+        "EENAME": "AQUIL FLYTHE",
+        "Position": "Recruiter"
+    },
+    {
+        "EENAME": "ARNOLD NAVEY",
+        "Position": "Post Closing Analyst"
+    },
+    {
+        "EENAME": "ARTHUR FELDER",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ASHLEIGH HARRIS",
+        "Position": "HR Administrator"
+    },
+    {
+        "EENAME": "ASHLEIGH NOVELLINO",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ASHLEY BARRETT",
+        "Position": "Pre-Closer"
+    },
+    {
+        "EENAME": "ASHLEY CRANDALL",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ASHLEY DAVIDSON",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "ASHLEY NANCE",
+        "Position": "Closing Team Lead"
+    },
+    {
+        "EENAME": "ASHLEY PATEL",
+        "Position": "Funder"
+    },
+    {
+        "EENAME": "ASHLEY STRICKLAND",
+        "Position": "HRBP"
+    },
+    {
+        "EENAME": "AUBREY RATCHFORD",
+        "Position": "Compensation Director"
+    },
+    {
+        "EENAME": "AUDREY SCAVETTO",
+        "Position": "Processor II"
+    },
+    {
+        "EENAME": "AUSTIN GREEN",
+        "Position": "Administrative Assistant"
+    },
+    {
+        "EENAME": "AUSTIN SMITH",
+        "Position": "IT Security Admin"
+    },
+    {
+        "EENAME": "AYDEN KING",
+        "Position": "Web Developer"
+    },
+    {
+        "EENAME": "BAILEY GAYDEN",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "BARBARA HIRTLE",
+        "Position": "Concierge"
+    },
+    {
+        "EENAME": "BARRY DUCKWORTH",
+        "Position": "QC Underwriter Team Lead"
+    },
+    {
+        "EENAME": "BARRY JONES",
+        "Position": "Processor I"
+    },
+    {
+        "EENAME": "BARRY TURNER",
+        "Position": "Underwriter III"
+    },
+    {
+        "EENAME": "BENJAMIN DAMRON",
+        "Position": "Closer I"
+    },
+    {
+        "EENAME": "BENJAMIN ROTHROCK",
+        "Position": "Benefits Administrator"
+    },
+    {
+        "EENAME": "BENJAMIN SANDERS",
+        "Position": "QC Manager"
+    },
+    {
+        "EENAME": "BETHANY WAGNER",
+        "Position": "QC Analyst"
+    },
+    {
+        "EENAME": "BETTY J TANNER",
+        "Position": "Thrive Admin"
+    },
+    {
+        "EENAME": "BEVERLY MEDLOCK",
+        "Position": "MBS Delivery Manager"
+    },
+    {
+        "EENAME": "BIANCA JACKSON",
+        "Position": "Post Closing Analyst"
+    },
+    {
+        "EENAME": "BONNIE TAYLOR",
+        "Position": "HRBP"
+    },
+    {
+        "EENAME": "BONNIE WASHINGTON",
+        "Position": "Underwriter III"
+    },
+    {
+        "EENAME": "BRADLEY HUSTON",
+        "Position": "Market Suppt Coordinator"
+    },
+    {
+        "EENAME": "BRADLEY RICKETTS",
+        "Position": "Lock Coordinator"
+    },
+    {
+        "EENAME": "BRANDON SMITS",
+        "Position": "Underwriter II"
+    }
+  ]
+}
