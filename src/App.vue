@@ -1,12 +1,14 @@
 <template>
   <div id="app">
-    <h1>CLT OPS</h1>
-    <p>{{data}}</p>
+    <div class="container">
+      <app-sidebar></app-sidebar>
+    </div>
   </div>
 </template>
 
 <script>
 import axios from 'axios';
+import Sidebar from './components/Sidebar.vue'
 
 export default {
   name: 'app',
@@ -14,6 +16,9 @@ export default {
     return {
       data: {}
     }
+  },
+  components: {
+    'app-sidebar': Sidebar,
   },
   methods: {
     async getData() {
@@ -27,30 +32,13 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
+*{
+  margin: 0;
   padding: 0;
 }
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100%;
 }
 </style>
