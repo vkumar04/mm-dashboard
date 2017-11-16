@@ -4,7 +4,7 @@
     <h3>Bill Murray</h3>
     <h4>loan officier</h4>
     <div class="link-container">
-      <a href="#">charlotte ops</a>
+      <a class="active" href="#">charlotte ops</a>
       <a href="#">virgina ops</a>
       <a href="#">pheonix ops</a>
       <a href="#">richmond ops</a>
@@ -19,23 +19,28 @@
     align-items: center;
     height: 100%;
     width: 250px;
+    font-family: 'Oswald', sans-serif;
+    background: #B82B35;
+    color: #fff;
 
     #avatar{
       height: 100px;
       width: 100px;
       border-radius: 50%;
-      margin: 40px 0;
-    }
-
-    h3,h4{
-      margin: 10px 0;
-      text-transform: uppercase;
-      font-family: 'Oswald', sans-serif;
-      letter-spacing: 2px;
+      margin: 40px 0 20px 0;
     }
 
     h3{
-      font-weight: 500;
+      margin: 10px 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 24px;
+    }
+
+    h4{
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
     }
 
     .link-container{
@@ -44,16 +49,22 @@
       width: 100%;
       margin-top: 80px;
       font-family: 'Open Sans', sans-serif;
+      letter-spacing: 2px;
 
       a{
         text-align: center;
-        padding: 15px 0;
+        padding: 20px 0;
         text-transform: uppercase;
         text-decoration: none;
-        color: #000;
+        color: #fff;
 
         &:hover{
-          color: red;
+          background-color: darken(#B82B35, 10%);
+        }
+
+        &.active{
+          background-color: #fff;
+          color: #B82B35;
         }
       }
     }
