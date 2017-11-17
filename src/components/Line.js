@@ -14,10 +14,10 @@ export default {
     this.renderChart({
       datasets: [
         {
-          backgroundColor: ['#B82B35', '#fff'],
+          backgroundColor: ['#B82B35', '#eee'],
           data: [this.content.data.goalsMet.TPD_Pct, this.remain]
         }
       ],
-    }, {tooltips: false})
+    }, {tooltips: false, cutoutPercentage: 80})
   }
 }

@@ -52,8 +52,8 @@
       letter-spacing: 2px;
 
       a{
-        text-align: center;
         padding: 20px 0;
+        padding-left: 40px;
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
@@ -61,11 +61,13 @@
 
         &:hover{
           background-color: darken(#B82B35, 10%);
+          padding-left: 60px;
         }
 
         &.active{
           background-color: #fff;
           color: #B82B35;
+          border-left: 16px solid darken(#B82B35, 10%);
         }
       }
     }
