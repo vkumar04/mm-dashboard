@@ -2,6 +2,7 @@
   <div id="app">
     <div class="container">
       <app-sidebar></app-sidebar>
+      <app-content :content="data"></app-content>
     </div>
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import axios from 'axios';
 import Sidebar from './components/Sidebar.vue'
+import Content from './components/Content.vue'
 
 export default {
   name: 'app',
@@ -19,6 +21,7 @@ export default {
   },
   components: {
     'app-sidebar': Sidebar,
+    'app-content': Content,
   },
   methods: {
     async getData() {
