@@ -57,6 +57,7 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
+        transition: 0.3s ease all;
 
         &:hover{
           background-color: darken(#B82B35, 10%);
