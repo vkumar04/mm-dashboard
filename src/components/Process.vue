@@ -3,7 +3,7 @@
     <h2>7 day process goal</h2>
     <div class="graph-container">
       <p>{{content.data.goalsMet.TPD_Pct}} %</p>
-    <app-line :content="content"></app-line>
+      <app-line :height="300" :content="content"></app-line>
     </div>
     
   </div>
@@ -34,10 +34,10 @@ export default {
    .graph-container{
      position: relative;
     p{
-      font-size: 100px;
+      font-size: 60px;
       position: absolute;
-      top: 30%;
-      right: 14%;
+      top: 35%;
+      right:30%;
     }
    } 
   }

@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 250px;
+    width: 16%;
     font-family: 'Oswald', sans-serif;
     background: #B82B35;
     color: #fff;
