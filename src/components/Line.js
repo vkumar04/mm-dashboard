@@ -3,17 +3,21 @@ import { Doughnut } from 'vue-chartjs'
 
 export default {
   extends: Doughnut,
+  props: ['content'],
+  data () {
+    return {
+      remain: 100 - this.content.data.goalsMet.TPD_Pct
+    }
+  },
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({
-      labels: ['current 7 day process goal', 'remaining goal'],
       datasets: [
         {
-          label: ['Current Goal', 'Remaining Goal'],
           backgroundColor: ['#B82B35', '#fff'],
-          data: [79.6, 21.4]
+          data: [this.content.data.goalsMet.TPD_Pct, this.remain]
         }
-      ]
-    })
+      ],
+    }, {tooltips: false})
   }
 }

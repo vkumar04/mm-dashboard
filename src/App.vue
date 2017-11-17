@@ -16,7 +16,7 @@ export default {
   name: 'app',
   data () {
     return {
-      data: {'':''}
+      data: {}
     }
   },
   components: {
