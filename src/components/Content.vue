@@ -32,6 +32,6 @@ export default {
   .content-container{
     height: 100vh;
     display: flex;
-   
+    flex-wrap: wrap;
   }
 </style>

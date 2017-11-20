@@ -1,8 +1,8 @@
-import { Doughnut } from 'vue-chartjs'
+import { Pie } from 'vue-chartjs'
 // import the component - chart you need
 
 export default {
-  extends: Doughnut,
+  extends: Pie,
   props: ['content'],
   data () {
     return {
@@ -22,6 +22,6 @@ export default {
           data: [this.lastMTD, this.thisMTD]
         }
       ],
-    }, {cutoutPercentage: 80})
+    }, {legend: {position: 'right'}, })
   }
 }

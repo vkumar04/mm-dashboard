@@ -1,6 +1,7 @@
 <template>
   <div class="process-container">
     <h2>7 day process goal</h2>
+    <br>
     <div class="graph-container">
       <p>{{content.data.goalsMet.TPD_Pct}} %</p>
       <app-processGraph :height="300" :content="content"></app-processGraph>
@@ -24,11 +25,12 @@ export default {
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
+    padding: 10px;
     align-items: center;
     h2{
       margin-bottom: 20px;
       font-family: 'Open Sans', sans-serif;
-      font-size: 40px;
+      font-size: 20px;
       letter-spacing: 3px;
     } 
    .graph-container{
