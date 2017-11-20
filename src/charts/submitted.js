@@ -1,8 +1,8 @@
-import { Pie } from 'vue-chartjs'
+import { Doughnut } from 'vue-chartjs'
 // import the component - chart you need
 
 export default {
-  extends: Pie,
+  extends: Doughnut,
   props: ['content'],
   data () {
     return {
@@ -14,7 +14,7 @@ export default {
   },
   mounted () {
     this.renderChart({
-      labels: [this.lastMonth, this.thisMonth],
+      labels: [`${this.lastMonth} units`, `${this.thisMonth} units`],
       datasets: [
         {
           label: [this.lastMonth, this.thisMonth],
@@ -22,6 +22,6 @@ export default {
           data: [this.lastMTD, this.thisMTD]
         }
       ],
-    }, {legend: {position: 'right'}, })
+    }, {legend: {position: 'right'}, cutoutPercentage: 80, responsive: true})
   }
 }

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="container">
-      <transition name="slide-fade">
+      <!-- <transition name="slide-fade">
         <app-sidebar v-if="show"></app-sidebar>
-      </transition>
+      </transition> -->
       <app-content :content="data"></app-content>
     </div>
   </div>
@@ -45,17 +45,18 @@ export default {
 }
 .container{
   display: flex;
+  width:100%;
   height: 100vh;
 }
 .slide-fade-enter-active {
-  transition: all .3s ease;
+  transition: all 1s ease;
 }
 .slide-fade-leave-active {
-  transition: all 3ms;
+  transition: all 1s;
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateX(-20px);
+  transform: translateX(-10px);
   opacity: 0;
 }
 </style>

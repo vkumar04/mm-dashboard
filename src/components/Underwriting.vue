@@ -1,26 +1,26 @@
 <template>
-  <div class="submitted-container">
-    <h2>submitted files through <br>{{content.data.goalsMet.BusinessDayCount}} business days</h2>
-    <app-submittedGraph :height="300" :content="content"></app-submittedGraph>
-  </div>
+ <div class="underwriting-container">
+   <h2>underwriting turntime <br>{{content.data.goalsMet.uw_lvl1_3}}/{{content.data.goalsMet.uw_lvl4}}</h2>
+   <app-underWriting :height="300" :content="content"></app-underWriting>
+  </div> 
 </template>
 <script>
-import submittedGraph from '../charts/submitted.js'
+import underWriting from '../charts/underWriting.js';
 export default {
   props: ['content'],
   components: {
-    'app-submittedGraph': submittedGraph,
-  },
+    'app-underWriting': underWriting,
+  }  
 }
 </script>
 <style lang="scss" scoped>
-  .submitted-container{
+  .underwriting-container{
     display: flex;
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
-    text-transform: uppercase;
     padding: 10px;
     align-items: center;
+    text-transform: uppercase;
     h2{
       margin-bottom: 20px;
       font-family: 'Open Sans', sans-serif;
@@ -30,3 +30,5 @@ export default {
     }
   }
 </style>
+
+
