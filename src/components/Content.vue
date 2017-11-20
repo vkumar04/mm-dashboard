@@ -1,14 +1,12 @@
 <template>
-<div>
-      <h1>charlotte ops</h1>
   <div class="content-container">
     <app-process :content="content"></app-process>
-    <app-process :content="content"></app-process>
+    <app-submitted :content="content"></app-submitted>
   </div>
-</div>
 </template>
 <script>
 import Process from './Process.vue'
+import Submitted from './Submitted.vue'
 export default {
   data() {
     return {
@@ -17,6 +15,7 @@ export default {
   },
   components: {
     'app-process': Process,
+    'app-submitted': Submitted,
   },
   props: ['content'],
 }
@@ -32,7 +31,6 @@ export default {
     }
   .content-container{
     height: 100vh;
-    width: 84%;
     display: flex;
    
   }

@@ -18,8 +18,8 @@
   "FundedVolMTD": "$102,640,279",
   "Projected_Units": "1,390",
   "Projected_Volume": "$274,245,467",
-  "Submissions_NumOfLoans_MTD": "987",
-  "Submissions_NumOfLoans_LastMTD": "1,099",
+  "Submissions_NumOfLoans_MTD": 1247,
+  "Submissions_NumOfLoans_LastMTD": 1396,
   "ThisMonth": "November",
   "LastMonth": "October",
   "BusinessDayCount": "11"

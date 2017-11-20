@@ -3,17 +3,17 @@
     <h2>7 day process goal</h2>
     <div class="graph-container">
       <p>{{content.data.goalsMet.TPD_Pct}} %</p>
-      <app-line :height="300" :content="content"></app-line>
+      <app-processGraph :height="300" :content="content"></app-processGraph>
     </div>
     
   </div>
 </template>
 <script>
-import Line from './Line.js'
+import processGraph from '../charts/process_chart.js'
 export default {
   props: ['content'],
   components: {
-    'app-line': Line
+    'app-processGraph': processGraph
   },
 }
 </script>
