@@ -1,8 +1,7 @@
 <template>
   <div class="content-container">
-    <h1>CLT OPS</h1>
+    <app-process :content="content"></app-process>
     <div class="graphs">
-      <app-process :content="content"></app-process>
       <app-underwriting :content="content"></app-underwriting>
       <app-submitted :content="content"></app-submitted>
     </div>
@@ -30,8 +29,7 @@ export default {
   .content-container{
     display: flex;
     width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
+    align-items: flex-start;
     h1{
       color: #B82B35;
       text-align: center;
@@ -44,6 +42,7 @@ export default {
       flex-wrap: wrap;
       justify-content: space-evenly;
       display: flex;
+      width: 100%;
       align-items: center;
     }
   }

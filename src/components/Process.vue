@@ -4,7 +4,12 @@
     <br>
     <div class="graph-container">
       <p>{{content.data.goalsMet.TPD_Pct}} %</p>
-      <app-processGraph :height="300" :content="content"></app-processGraph>
+      <app-processGraph class="graph" :height="300" :content="content"></app-processGraph>
+      <div class="stats">
+        <h4>Funded Units: {{content.data.goalsMet.FundedUnitsMTD}}</h4>
+        <h4>Projected Units: {{content.data.goalsMet.Projected_Units}}</h4>
+        <h4>Projected Volume: {{content.data.goalsMet.Projected_Volume}}</h4>
+      </div>
     </div>
     
   </div>
@@ -21,6 +26,9 @@ export default {
 
 <style lang="scss" scoped>
   .process-container{
+    position: relative;
+    height: 100vh;
+    background: pink;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -34,13 +42,27 @@ export default {
       letter-spacing: 3px;
     } 
    .graph-container{
-     position: relative;
     p{
       font-size: 60px;
       position: absolute;
-      top: 35%;
-      right:30%;
+      top: 190px;
+      left: 32%;
     }
    } 
+   .stats{
+     display: flex;
+     padding: 0 20px;
+     width: 100%;
+     margin: 0 auto;
+     flex-direction: column;
+     margin-top: 60px;
+
+     h4{
+       margin: 10px 0;
+       font-size: 22px;
+      letter-spacing: 3px;
+       font-family: 'Open Sans', sans-serif;
+     }
+   }
   }
 </style>
