@@ -4,6 +4,8 @@
     <div class="graphs">
       <app-underwriting :content="content"></app-underwriting>
       <app-submitted :content="content"></app-submitted>
+      <app-units :content="content" :height="300"></app-units>
+      <p>{{this.content.data.goalsMet}}</p>
     </div>
   </div>
 </template>
@@ -11,16 +13,17 @@
 import Process from './Process.vue'
 import Submitted from './Submitted.vue'
 import Underwriting from './Underwriting'
+import Units from '../charts/units'
 export default {
   data() {
     return {
-
     }
   },
   components: {
     'app-process': Process,
     'app-submitted': Submitted,
-    'app-underwriting': Underwriting
+    'app-underwriting': Underwriting,
+    'app-units': Units,
   },
   props: ['content'],
 }

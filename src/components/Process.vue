@@ -7,6 +7,7 @@
       <app-processGraph class="graph" :height="300" :content="content"></app-processGraph>
       <div class="stats">
         <h4>Funded Units: {{content.data.goalsMet.FundedUnitsMTD}}</h4>
+        <h4>Funded Volume: {{content.data.goalsMet.FundedVolMTD}}</h4>
         <h4>Projected Units: {{content.data.goalsMet.Projected_Units}}</h4>
         <h4>Projected Volume: {{content.data.goalsMet.Projected_Volume}}</h4>
       </div>
@@ -28,12 +29,11 @@ export default {
   .process-container{
     position: relative;
     height: 100vh;
-    background: pink;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
-    padding: 10px;
+    padding: 0 10px;
     align-items: center;
     h2{
       margin-bottom: 20px;
