@@ -1,25 +1,27 @@
 <template>
   <div class="content-container">
-    <app-process :content="content"></app-process>
+   <app-sidebar></app-sidebar> 
     <div class="graphs">
+      <app-process :content="content"></app-process>
       <app-underwriting :content="content"></app-underwriting>
       <app-submitted :content="content"></app-submitted>
-      <app-units :content="content" :height="300"></app-units>
-      <p>{{this.content.data.goalsMet}}</p>
+      <app-units :content="content"></app-units>
     </div>
   </div>
 </template>
 <script>
+import Sidebar from './Sidebar'
 import Process from './Process.vue'
 import Submitted from './Submitted.vue'
 import Underwriting from './Underwriting'
-import Units from '../charts/units'
+import Units from './Units.vue'
 export default {
   data() {
     return {
     }
   },
   components: {
+    'app-sidebar': Sidebar,
     'app-process': Process,
     'app-submitted': Submitted,
     'app-underwriting': Underwriting,
