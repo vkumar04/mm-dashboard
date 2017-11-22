@@ -1,6 +1,8 @@
 <template>
   <div class="content-container">
-   <app-sidebar></app-sidebar> 
+    <transition>
+      <app-sidebar></app-sidebar> 
+    </transition>
     <div class="graphs">
       <app-process :content="content"></app-process>
       <app-underwriting :content="content"></app-underwriting>
